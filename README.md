@@ -6,6 +6,8 @@
     <img src="images/Screenshot_20240129-103132.png" alt="Rojo" height="130" />
 </div>
 
+# obs: essa notificação fica no meio da tela
+
 # exemplo de notificação com um contador:
 
 ```lua
