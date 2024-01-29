@@ -1,5 +1,11 @@
 # Notification-plus v1:
 
+# preview:
+
+<div align="center">
+    <img src="assets/HDAdminLogo.png" alt="Rojo" height="217" />
+</div>
+
 # exemplo de notificação com um contador:
 
 ```lua
