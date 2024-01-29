@@ -86,3 +86,8 @@ updateCountdown()
 ```
 
 # em baixo desse código coloque seu script todo
+
+# precisa de ajuda? me chame pv no discord:
+weszin3
+
+obs: sou meio iniciante em Roblox Studio, só sei o básico da linguagem lua
