@@ -1,6 +1,7 @@
 # Notification-plus v1:
 
-exemplo:
+# exemplo:
+
 ```lua
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
