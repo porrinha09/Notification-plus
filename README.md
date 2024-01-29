@@ -84,3 +84,5 @@ end
 
 updateCountdown()
 ```
+
+# em baixo desse código coloque seu script todo
