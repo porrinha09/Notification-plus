@@ -1,6 +1,6 @@
 # Notification-plus v1:
 
-# exemplo:
+# exemplo de notificação com um contador:
 
 ```lua
 local player = game.Players.LocalPlayer
