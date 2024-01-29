@@ -3,7 +3,7 @@
 # preview:
 
 <div align="center">
-    <img src="images/Screenshot_20240129-103132.png" alt="Rojo" height="217" />
+    <img src="images/Screenshot_20240129-103132.png" alt="Rojo" height="210" />
 </div>
 
 # exemplo de notificação com um contador:
