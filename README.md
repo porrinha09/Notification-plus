@@ -91,7 +91,36 @@ end
 updateCountdown()
 ```
 
-# em baixo desse código coloque seu script todo
+# n quer o contador na notificação? tente isso:
+
+```lua
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local notification = Instance.new("ScreenGui")
+notification.Name = "notification"
+notification.Parent = playerGui
+
+local Background = Instance.new("Frame")
+Background.Size = UDim2.new(0, 300, 0, 50)  
+Background.Position = UDim2.new(0.5, -150, 0.5, -25) 
+Background.BackgroundColor3 = Color3.new(0, 0, 0)
+Background.Parent = notification
+
+local Text = Instance.new("TextLabel")
+Text.Text = "Bem vindo!"
+Text.TextColor3 = Color3.new(1, 1, 1)
+Text.BackgroundColor3 = Color3.new(0, 0, 0)
+Text.TextSize = 19
+Text.Size = UDim2.new(1, 0, 1, 0)
+Text.Parent = Background
+```
+## obs: se vc quiser q a notificação seja destruída só colocar isso em baixo do código:
+```lua
+wait(5) -- em segundos
+notification:Destroy()
+```
+
+# em baixo desses códigos de notificação coloque seu script todo
 
 # precisa de ajuda? me chame pv no discord
 meu nick: weszin3
