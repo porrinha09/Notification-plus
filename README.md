@@ -75,7 +75,8 @@ end
 updateCountdown()
 ```
 
-Deseja q a ui seja destruída quando atinge (0)? tente isso:
+# Deseja q a ui seja destruída quando atinge (0)? tente isso:
+
 
 ```lua
 local player = game.Players.LocalPlayer
