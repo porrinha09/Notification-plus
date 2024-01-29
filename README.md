@@ -89,6 +89,7 @@ updateCountdown()
 
 # precisa de ajuda? me chame pv no discord
 meu nick: weszin3
+
 meu servidor: https://discord.gg/K82z3EujJn
 
 ## mais atualizações em breve!
