@@ -244,6 +244,12 @@ Text.Size = UDim2.new(1, 0, 1, 0)
 Text.Parent = Background
 ```
 
+# para acontecer algo depois e segundos sem usar um contador, só colocar isso em baixo:
+```lua
+wait(5) -- em segundos
+notification:Destroy()
+```
+
 # em baixo desses códigos de notificação coloque seu script todo
 
 # precisa de ajuda? me chame pv no discord
