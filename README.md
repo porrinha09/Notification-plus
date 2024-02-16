@@ -158,6 +158,31 @@ Text.Parent = Background
 # Novidades:
 1- agora e com imagem a notificação
 
+```lua
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local notification = Instance.new("ScreenGui")
+notification.Name = "notification"
+notification.Parent = playerGui
+
+local Background = Instance.new("Frame")
+Background.Size = UDim2.new(0, 200, 0, 200)  
+Background.Position = UDim2.new(0.5, -100, 0.5, -100) 
+Background.BackgroundColor3 = Color3.new(0, 0, 0)
+Background.Active = true
+Background.Draggable = true
+BackgroundTransparency = 1 
+Background.Parent = notification
+
+local imagem = Instance.new("ImageLabel")
+imagem.Parent = frame
+imagem.Size = UDim2.new(1, 0, 1, 0) 
+imagem.Position = UDim2.new(0, 0, 0, 0) 
+imagem.BackgroundTransparency = 1 
+imagem.Image = "rbxassetid://" Id image
+imagem.Parent = Background
+```
+
 # para acontecer algo depois e segundos sem usar um contador, só colocar isso em baixo:
 ```lua
 wait(5) -- em segundos
