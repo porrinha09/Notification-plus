@@ -194,8 +194,6 @@ notification:Destroy()
 notification:Destroy()
 ```
 
-# em baixo desses códigos de notificação coloque seu script todo
-
 # precisa de ajuda? me chame pv no discord
 meu nick: weszin3
 
